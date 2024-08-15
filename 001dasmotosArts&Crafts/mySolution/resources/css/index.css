@@ -1,0 +1,101 @@
+/*Default resets start*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+#root, #__next {
+    isolation: isolate;
+}
+/*Default resets end*/
+
+/*Helvetica plus fallback font*/
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p span {
+    font-weight: bold;
+    color: blue;
+}
+
+/*Some space between every section, to make it apparent they're different*/
+.section {
+    margin: 30px 0;
+}
+
+.section h3, h4, img, p {
+    margin: 0 0 10px 0;
+}
+
+/*Getting VS Code bug, background image won't load despite localurl link being correct*/
+#header {
+    background-color: #000000;
+    text-align: center;
+}
+
+#first-h3 {
+    background-color: mediumspringgreen;
+}
+
+#second-h3 {
+    background-color: lightcoral;
+}
+
+#third-h3 {
+    background-color: skyblue;
+}
+
+/*Floating back element*/
+#floating-back {
+    position: fixed;
+    bottom: 4vw;
+    right: 4vw;
+    padding: 1em;
+    border-radius: 4px;
+    background-color: var(--dark-surface-color);
+    box-shadow: 4px 4px 12px hsl(0, 0%, 0%, 0.3);
+}
+
+#floating-back svg {
+    fill: var(--text-color);
+}

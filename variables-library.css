@@ -1,0 +1,14 @@
+/*Variables library*/
+:root {
+    --dark-surface-color: #00112b;
+    --light-surface-color: #0065ff;
+    --secondary-surface-color: #f37748;
+    --dark-text-color: #272838;
+    --text-color: #e6f0ff;
+    --accent-text-color: #96C0FF;
+    --light-text-color: var(--white-color);
+    --success-color: #dbf4a7;
+    --error-color: #a41623;
+    --white-color: #fff;
+    --black-color: #000;
+  }

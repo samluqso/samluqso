@@ -1,0 +1,29 @@
+#id-field-wrapper {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.id-fields {
+  display: flex;
+  gap: 0.7em;
+  fill: #fff;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.id-fields a {
+  color: var(--text-color);
+}
+
+.code-cell {
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+}
+
+#outro {
+  padding: 1em;
+  background-color: var(--light-surface-color);
+  border-radius: 4px;
+  gap: 0.5em;
+}
